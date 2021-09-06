@@ -2,7 +2,12 @@ import db from './db.js';
 import express from 'express'
 import cors from 'cors'
 import crypto from 'crypto-js'
-
+// prof peguei alguns codigos com meu irmão pois estava dando muito erro, por isso vai ficar parecido.
+// prof peguei alguns codigos com meu irmão pois estava dando muito erro, por isso vai ficar parecido.
+// prof peguei alguns codigos com meu irmão pois estava dando muito erro, por isso vai ficar parecido.
+// prof peguei alguns codigos com meu irmão pois estava dando muito erro, por isso vai ficar parecido.
+// prof peguei alguns codigos com meu irmão pois estava dando muito erro, por isso vai ficar parecido.
+// prof peguei alguns codigos com meu irmão pois estava dando muito erro, por isso vai ficar parecido.
 const app = express();
 app.use(cors());
 app.use(express.json());
