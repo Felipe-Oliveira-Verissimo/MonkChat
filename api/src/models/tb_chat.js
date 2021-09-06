@@ -5,26 +5,18 @@ export default class tb_chat extends Model {
   static init(sequelize, DataTypes) {
   super.init({
     id_chat: {
-      autoIncrement: true,
       type: DataTypes.INTEGER,
       allowNull: false,
-      primaryKey: true
+      primaryKey: true,
+      autoIncrement: true
     },
     id_sala: {
       type: DataTypes.INTEGER,
-      allowNull: true,
-      references: {
-        model: 'tb_sala',
-        key: 'id_sala'
-      }
+      allowNull: true
     },
     id_usuario: {
       type: DataTypes.INTEGER,
-      allowNull: true,
-      references: {
-        model: 'tb_usuario',
-        key: 'id_usuario'
-      }
+      allowNull: true
     },
     ds_mensagem: {
       type: DataTypes.STRING(100),
